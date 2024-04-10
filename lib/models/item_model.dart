@@ -3,11 +3,11 @@ class ItemModel {
     required this.id,
     required this.title,
     required this.imageURL,
-    required this.relaseDate,
+    required this.releaseDate,
   });
 
   final String id;
   final String title;
   final String imageURL;
-  final DateTime relaseDate;
+  final DateTime releaseDate;
 }
